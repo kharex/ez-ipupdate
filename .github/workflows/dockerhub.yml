@@ -6,7 +6,7 @@ jobs:
   build:    
     runs-on: ubuntu-latest    
     env:      
-      DOCKER_REGISTRY: registry.hub.docker.com
+      DOCKER_REGISTRY:
       DOCKER_IMAGE: kharex/ez-ipupdate
       DOCKER_TARGET_PLATFORM: linux/amd64,linux/arm64,linux/arm/v7                 
     steps:    
